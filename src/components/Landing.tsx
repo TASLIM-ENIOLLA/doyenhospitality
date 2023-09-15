@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Bars3 from "@/icons/Bars3";
-
 export default function Component() {
 	return (
 		<section className="min-h-screen flex flex-col">

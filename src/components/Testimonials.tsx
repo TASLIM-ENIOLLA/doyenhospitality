@@ -51,7 +51,7 @@ type TestimonialsType = {
 	clientName: string,
 }
 
-const testimonials: TestimonialsType = [
+const testimonials: TestimonialsType[] = [
 	{
 		testimony: "Justo vestibulum risus imperdiet consectetur consectetur pretium urna augue etiam risus accumsan volutpat urna, eu semper enim, est aliquam laoreet urna fringilla viverra.",
 		clientName: "daniel johnson"

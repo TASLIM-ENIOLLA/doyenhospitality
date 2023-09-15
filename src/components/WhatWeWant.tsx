@@ -20,7 +20,7 @@ export default function Component() {
 						</div>
 					</div>
 					<div className="space-y-10">
-						{wants.map(({ title, route }: WantsType, index: number) => (
+						{wants.map(({ title, route }: WantType, index: number) => (
 							<Link key={index} href={route} className="flex w-full justify-between pb-5 border-b hover:border-blue-600 border-transparent transition duration-500 flex-row items-center">
 								<div>
 									<div className="text-4xl font-semibold text-gray-900">
@@ -39,7 +39,7 @@ export default function Component() {
 	);
 }
 
-export type WantType = {
+type WantType = {
 	title: string,
 	route: string
 }

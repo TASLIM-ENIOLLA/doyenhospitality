@@ -4,8 +4,15 @@ import Image from "next/image";
 import { links } from "./Landing";
 import { wants } from "./WhatWeWant";
 
-import type { LinkType } from "./WhatWeWant";
-import type { WantType } from "./WhatWeWant";
+type WantType = {
+	title: string,
+	route: string
+}
+
+type LinkType = {
+  title: string,
+  route: string
+}
 
 export default function Page() {
 	return (

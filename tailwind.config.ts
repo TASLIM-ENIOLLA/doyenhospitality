@@ -16,7 +16,6 @@ const config: Config = {
         xl: '6.5rem',
         '2xl': '8rem',
       },
-      maxWidth: "100px"
     },
     extend: {
       backgroundImage: {

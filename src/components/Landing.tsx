@@ -69,7 +69,7 @@ export default function Component() {
 	);
 }
 
-export type LinkType = {
+type LinkType = {
   title: string,
   route: string
 }

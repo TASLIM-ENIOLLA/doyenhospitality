@@ -40,6 +40,7 @@ export default function Component() {
 }
 
 type WantType = {
+	id: string,
 	title: string,
 	route: string,
 	image?: any,

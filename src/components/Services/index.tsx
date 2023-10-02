@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import ArrowRight from "@/icons/ArrowRight";
 
-import { services } from "./__props/services";
+import { services, ServiceType } from "./__props/services";
 
 export default function Component() {
 	return (

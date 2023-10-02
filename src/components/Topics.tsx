@@ -2,14 +2,14 @@ export default function Component() {
 	return (
 		<section className="py-20">
 			<div className="container space-y-10 lg:space-y-20">
-				<div className="capitalize text-4xl lg:text-5xl font-bold text-gray-700 text-center">what i discuss</div>
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+				<div className="capitalize text-3xl lg:text-5xl font-bold text-gray-700 text-center">what i discuss</div>
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-10">
 					{discussion.map(({ title, body }: DiscussionType, index: number) => (
 						<div key={index}>
 							<div className="border-t border-transparent hover:border-blue-600 transition duration-500 py-5 space-y-3 h-full">
-								<div className="text-blue-600 font-semibold text-lg">0{index + 1}.</div>
-								<div className="capitalize text-2xl font-bold text-gray-700">{title}</div>
-								<div className="capitalize text-lg font-normal text-gray-600">{body}</div>
+								<div className="text-blue-600 font-semibold text-md md:text-lg">0{index + 1}.</div>
+								<div className="capitalize text-xl md:text-2xl font-bold text-gray-700">{title}</div>
+								<div className="capitalize text-md md:text-lg font-normal text-gray-600">{body}</div>
 							</div>
 						</div>
 					))}

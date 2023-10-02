@@ -6,18 +6,18 @@ export default function Page() {
 			<div className="container space-y-10">
 				<div>
 					<div className="space-y-3 md:space-y-5">
-						<div className="uppercase text-lg font-semibold text-blue-600">
-							about me
+						<div className="uppercase text-md md:text-lg font-semibold text-blue-600">
+							testimonials
 						</div>
-						<div className="text-4xl lg:text-5xl leading-normal font-semibold text-gray-900">
+						<div className="text-3xl md:text-4xl lg:text-5xl leading-normal font-semibold text-gray-900">
 							What clients are saying
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-1 lg:grid-cols-2">
+				<div className="grid gap-10 grid-cols-1 lg:grid-cols-2">
 					{testimonials.map(({ testimony, clientName}: TestimonialsType, index: number) => (
-						<div key={index} className="py-3">
-							<div className="bg-white rounded-lg hover:shadow-lg py-10 lg:py-20 px-5 lg:px-10">
+						<div key={index}>
+							<div className="bg-white rounded-lg h-full hover:shadow-lg py-10 lg:py-20 px-5 lg:px-10">
 								<div className="flex flex-col lg:flex-row flex-wrap gap-10">
 									<div>
 										<Image
@@ -29,10 +29,10 @@ export default function Page() {
 										/>
 									</div>
 									<div className="flex-1 space-y-5">
-										<div className="font-medium leading-9 text-xl text-gray-700">
+										<div className="font-medium leading-6 md:leading-9 text-md md:text-xl text-gray-700">
 											&quot;{testimony}&quot;
 										</div>
-										<div className="uppercase font-medium text-gray-500 text-lg">
+										<div className="uppercase font-medium text-gray-500 text-md md:text-lg">
 											{clientName}
 										</div>
 									</div>

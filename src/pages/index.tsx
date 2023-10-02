@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import Landing from "@/components/Landing";
 import Features from "@/components/Features";
 import Topics from "@/components/Topics";
-import WhatWeWant from "@/components/WhatWeWant";
+import Services from "@/components/Services";
 import About from "@/components/About";
 import Testimonials from "@/components/Testimonials";
 import Inquiry from "@/components/Inquiry";
@@ -15,7 +15,7 @@ export default function Page() {
       <Landing />
       <Features />
       <Topics />
-      <WhatWeWant />
+      <Services />
       <About />
       <Testimonials />
       <Inquiry />

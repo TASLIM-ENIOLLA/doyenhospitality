@@ -4,14 +4,14 @@ export default function Component() {
 	return (
 		<section className="py-20">
 			<div className="container space-y-5 lg:space-y-10">
-				<div className="uppercase text-lg font-semibold text-blue-600 text-center">
+				<div className="uppercase text-md md:text-lg font-semibold text-blue-600 text-center">
 					as featured in
 				</div>
 				<div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
 					{Array(8).fill("").map((_: string, index: number) => (
 						<div key={index}>
 							<div className="hover:shadow-lg transition ease-in-out duration-500 flex flex-col justify-center items-center py-10">
-								<Image alt={`logo-${index + 1}`} width="200" height="80" src={`/images/logo-${index + 1}.svg`} />
+								<Image className="block w-full" alt={`logo-${index + 1}`} width="200" height="80" src={`/images/logo-${index + 1}.svg`} />
 							</div>
 						</div>
 					))}

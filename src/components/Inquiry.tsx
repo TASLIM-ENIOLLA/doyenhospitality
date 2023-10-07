@@ -4,7 +4,7 @@ export default function Page() {
 			<div className="container space-y-10">
 				<div className="max-w-[600px] mx-auto">
 					<div className="space-y-7">
-						<div className="text-3xl md:text-4xl lg:text-5xl capitalize font-semibold leading-snug text-center">
+						<div className="text-3xl md:text-4xl lg:text-5xl capitalize font-semibold md:line-height-lg text-center">
 							If You Have Any Question, Feel Free to Call 123-456-7890
 						</div>
 						<div className="capitalize text-md md:text-lg font-normal text-gray-600 text-center">

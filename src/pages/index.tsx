@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 
 import Landing from "@/components/Landing";
-import Features from "@/components/Features";
+import Partners from "@/components/Partners";
 import Topics from "@/components/Topics";
 import Services from "@/components/Services";
 import About from "@/components/About";
@@ -13,10 +13,10 @@ export default function Page() {
   return (
     <Fragment>
       <Landing />
-      <Features />
+      <Partners />
       <Topics />
       <Services />
-      <About />
+      {/* <About /> */}
       <Testimonials />
       <Inquiry />
       <Footer />

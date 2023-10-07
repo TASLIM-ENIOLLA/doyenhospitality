@@ -13,7 +13,7 @@ export default function Page() {
 			<Header />
 			<section className="py-20">
 				<div className="container space-y-10 md:space-y-20">
-					<div className="text-center capitalize text-3xl md:text-4xl lg:text-5xl leading-normal font-semibold text-gray-900">
+					<div className="text-center capitalize text-3xl md:text-4xl lg:text-5xl leading-normal font-semibold text-blue-600">
 						our services
 					</div>
 					<div className="space-y-5 md:space-y-10">

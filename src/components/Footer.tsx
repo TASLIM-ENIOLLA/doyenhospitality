@@ -22,7 +22,7 @@ export default function Page() {
 	              </Link>
 	            </div>
 	            <p className="capitalize text-md md:text-lg font-normal text-gray-600">
-								Amet suscipit urna turpis in malesuada et sapien semper porttitor netus turpis molestie sit molestie quis vitae.
+								Doyen Hospitality Consultant Company is an international hotel operator company. We provide management outsourcing services for independent and boutique hotels.
 							</p>
 						</div>
 					</div>
@@ -63,13 +63,16 @@ export default function Page() {
 							<div className="capitalize font-normal text-xl md:text-2xl">contact info</div>
 	            <div className="flex flex-col space-y-2">
 								<address className="text-md md:text-lg text-gray-600">
-									123 Fifth Avenue, New York, NY 12004. United States.
+									38, Ilorin Street, Off Adelabu Road, Surulere, Lagos.
 								</address>
-								<Link href="mailto://mail@example.com" className="text-md md:text-lg text-gray-600">
-									mail@example.com
+								<Link href="mailto://dadegoke2005@yahoo.com" className="text-md md:text-lg text-gray-600">
+									dadegoke2005@yahoo.com
 								</Link>
-								<Link href="tel://+01-123-4567-890" className="text-md md:text-lg text-gray-600">
-									+01-123-4567-890
+								<Link href="tel:// +234-0802-725-2705" className="text-md md:text-lg text-gray-600">
+									 +234-0802-725-2705
+								</Link>
+								<Link href="tel://+234-0806-260-5130" className="text-md md:text-lg text-gray-600">
+									+234-0806-260-5130
 								</Link>
 							</div>
 						</div>
@@ -77,7 +80,7 @@ export default function Page() {
 				</div>
 				<div className="text-center">
 					<p className="capitalize text-md md:text-lg font-normal text-gray-600">
-						&copy; { new Date().getFullYear() } Doyen Hospitality
+						&copy; { new Date().getFullYear() } Doyen Hospitality Consultant Company. All rights reserved.
 					</p>
 				</div>
 			</div>

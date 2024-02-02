@@ -33,15 +33,15 @@ export default function Page() {
 							</div>
 							<div className="space-y-2 text-center">
 								<div className="font-bold text-lg capitalize">email address</div>
-								<div className="gap-2">
+								<div className="space-y-2">
 									<div>
-										<Link href="mailto://support@doyenhospitality.com.ng" className="text-md md:text-lg text-gray-600">
-											support@doyenhospitality.com.ng
+										<Link href="mailto://info@doyenhospitality.com.ng" className="text-md md:text-lg text-gray-600">
+											info@doyenhospitality.com.ng
 										</Link>
 									</div>
 									<div>
-										<Link href="mailto://contact@doyenhospitality.com.ng" className="text-md md:text-lg text-gray-600">
-											contact@doyenhospitality.com.ng
+										<Link href="mailto://ceo@doyenhospitality.com.ng" className="text-md md:text-lg text-gray-600">
+											ceo@doyenhospitality.com.ng
 										</Link>
 									</div>
 								</div>

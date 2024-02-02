@@ -18,7 +18,7 @@ export default function Page() {
 						<div className="space-y-5">
 							<div className="inline-block">
 	              <Link href="/">
-	                <Image src="/favicon.ico" alt="Logo image" width="40" height="40" />
+	                <Image src="/favicon.ico" alt="Logo image" width="100" height="40" />
 	              </Link>
 	            </div>
 	            <p className="capitalize text-md md:text-lg font-normal text-gray-600">

@@ -19,7 +19,7 @@ export default function Page() {
           <div className="flex flex-row gap-20 items-center">
             <div>
               <Link href="/">
-                <Image src="/favicon.ico" alt="Logo image" width="35" height="35" />
+                <Image src="/favicon.ico" alt="Logo image" width="95" quality={100} height="35" />
               </Link>
             </div>
             <div className="hidden md:flex flex-row gap-10">

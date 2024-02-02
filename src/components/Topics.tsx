@@ -26,43 +26,78 @@ type DiscussionType = {
 
 const discussion: DiscussionType[] = [
 	{
-		title: "Operational Efficiency Enhancement",
-		body: "Hospitality consultants streamline operations within a hotel or restaurant, identifying inefficiencies and suggesting improvements to enhance service quality and profitability."
+		title: "Client Needs Assessment",
+		body: "Understand unique client needs to provide tailored brokerage services. Market Research: Stay informed about market trends, investment opportunities, and regulatory changes."
 	},
 	{
-		title: "Revenue Management Strategies",
-		body: "They develop pricing strategies, forecast demand, and optimize distribution channels to maximize revenue for the establishment, ensuring sustainable financial growth."
+		title: "Job Analysis",
+		body: "Clearly define roles and responsibilities for open positions within the organization. Sourcing: Identify and attract potential candidates through various channels."
 	},
 	{
-		title: "Market Research and Analysis",
-		body: "Hospitality consultants conduct market research to identify trends, opportunities, and competition, enabling businesses to stay competitive and adapt to changing market dynamics."
+		title: "Communication",
+		body: "Facilitate open and honest communication between conflicting parties to understand perspectives."
 	},
 	{
-		title: "Hospitality Technology Integration",
-		body: "They recommend, implement, and optimize technology solutions such as property management systems (PMS) to improve reservations, guest services, and data management."
+		title: "Mediation",
+		body: "Intervene impartially to help parties find common ground and reach mutually agreeable solutions."
 	},
 	{
-		title: "Guest Experience Enhancement",
-		body: "These consultants focus on enhancing guest satisfaction by training staff in exceptional customer service, analyzing feedback, and implementing strategies for improvement."
+		title: "Follow up",
+		body: "Monitor resolution implementation and address any lingering issues to ensure long-term success."
 	},
 	{
-		title: "Cost Control and Budgeting",
-		body: "They analyze expenses, identify areas for cost reduction, and create budgets to ensure effective cost control without compromising service quality."
+		title: "Skill development",
+		body: "Design and implement training programs to enhance specific skills or knowledge areas."
 	},
 	{
-		title: "Marketing and Branding Strategies",
-		body: "Consultants develop branding and marketing strategies, create campaigns, and manage online presence to attract and retain customers, building a strong brand identity."
+		title: "Feedback mechanism",
+		body: "Conduct regular feedback sessions to provide constructive criticism and guide continuous improvement."
 	},
 	{
-		title: "Food and Beverage Management",
-		body: "They review menu offerings, analyze food and beverage costs, and recommend menu changes and sourcing strategies to maximize profitability."
+		title: "Feedback mechanism",
+		body: "Conduct regular feedback sessions to provide constructive criticism and guide continuous improvement."
 	},
 	{
-		title: "Quality Assurance and Compliance",
-		body: "Consultants ensure compliance with industry regulations, conduct quality audits, and implement health and safety protocols to maintain standards."
+		title: "Performance metrics",
+		body: "Establish key performance indicators (KPIs) to measure the success and efficiency of operational processes."
 	},
 	{
-		title: "Strategic Planning",
-		body: "Hospitality consultants develop long-term business plans, growth strategies, and provide guidance on expansion, mergers, and acquisitions to drive sustainable success."
+		title: "Process mapping",
+		body: "Visualize workflows to pinpoint bottlenecks and inefficiencies in the sequence of activities."
 	},
 ];
+
+/**
+ * 
+ * 
+ * Operational Assessment:
+
+Data Collection and Analysis: Gather relevant data on processes, performance, and efficiency to identify strengths and weaknesses.
+Process Mapping: Visualize workflows to pinpoint bottlenecks and inefficiencies in the sequence of activities.
+Risk Assessment: Evaluate potential operational risks and develop strategies for mitigation.
+Performance Metrics: Establish key performance indicators (KPIs) to measure the success and efficiency of operational processes.
+Coaching & Mentoring:
+
+Needs Analysis: Identify specific skills and knowledge gaps for individuals or teams.
+Goal Setting: Collaboratively set clear and achievable goals for improvement and professional development.
+Feedback Mechanism: Conduct regular feedback sessions to provide constructive criticism and guide continuous improvement.
+Skill Development: Design and implement training programs to enhance specific skills or knowledge areas.
+General Brokerage:
+
+Client Needs Assessment: Understand unique client needs to provide tailored brokerage services.
+Market Research: Stay informed about market trends, investment opportunities, and regulatory changes.
+Transaction Execution: Efficiently execute buy or sell orders considering market conditions and client objectives.
+Compliance Management: Ensure adherence to legal and regulatory requirements governing brokerage activities.
+Recruitment:
+
+Job Analysis: Clearly define roles and responsibilities for open positions within the organization.
+Sourcing: Identify and attract potential candidates through various channels.
+Screening and Shortlisting: Review resumes, conduct initial interviews, and shortlist candidates based on qualifications.
+Interview and Selection: Conduct in-depth interviews, assess cultural fit, and make informed hiring decisions.
+Conflict Resolution:
+
+Identification: Recognize and acknowledge conflicts within the organization.
+Communication: Facilitate open and honest communication between conflicting parties to understand perspectives.
+Mediation: Intervene impartially to help parties find common ground and reach mutually agreeable solutions.
+Follow-up: Monitor resolution implementation and address any lingering issues to ensure long-term success.
+ */

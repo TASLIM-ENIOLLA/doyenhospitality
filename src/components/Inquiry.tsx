@@ -16,9 +16,9 @@ export default function Page() {
 							Reach out to us to know more about what we do
 						</div>
 						<div className="text-center">
-							<button className="px-10 py-4 uppercase text-md md:text-lg font-semibold rounded-md text-white bg-gradient-to-r from-blue-600 to-blue-800">
+							<Link href="/contact-us" className="px-10 py-4 uppercase text-md md:text-lg font-semibold rounded-md text-white bg-gradient-to-r from-blue-600 to-blue-800">
 								let&#39;s work together
-							</button>
+							</Link>
 						</div>
 					</div>
 				</div>

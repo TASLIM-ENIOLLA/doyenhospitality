@@ -1,25 +1,25 @@
 import { Fragment } from "react";
 
 import Landing from "@/components/Landing";
-import Partners from "@/components/Partners";
 import Topics from "@/components/Topics";
 import Services from "@/components/Services";
-import About from "@/components/About";
-import Testimonials from "@/components/Testimonials";
 import Inquiry from "@/components/Inquiry";
 import Footer from "@/components/Footer";
+import About from "@/components/About";
+import Testimonials from "@/components/Testimonials";
+import Partners from "@/components/Partners";
 
 export default function Page() {
   return (
     <Fragment>
       <Landing />
-      {/* <Partners />*/}
-      <Topics />
       <Services />
-      {/* <About /> */}
-      {/* <Testimonials />*/}
+      <Topics />
       <Inquiry />
       <Footer />
     </Fragment>
   ); 
 }
+{/* <Partners />*/}
+{/* <About /> */}
+{/* <Testimonials />*/}

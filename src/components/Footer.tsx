@@ -65,8 +65,8 @@ export default function Page() {
 								<address className="text-md md:text-lg text-gray-600">
 									38, Ilorin Street, Off Adelabu Road, Surulere, Lagos.
 								</address>
-								<Link href="mailto://dadegoke2005@yahoo.com" className="text-md md:text-lg text-gray-600">
-									dadegoke2005@yahoo.com
+								<Link href="mailto://ceo@doyenhospitality.com.ng" className="text-md md:text-lg text-gray-600">
+									ceo@doyenhospitality.com.ng
 								</Link>
 								<Link href="tel:// +234-0802-725-2705" className="text-md md:text-lg text-gray-600">
 									 +234-0802-725-2705
